@@ -1,4 +1,3 @@
-cd blog/.vuepress/dist
 git add .
-git commit -m "deploy"
+git commit -m "new deploy"
 git push
