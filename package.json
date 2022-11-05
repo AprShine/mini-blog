@@ -1,0 +1,16 @@
+{
+  "name": "my-blog-document",
+  "version": "1.0.0",
+  "description": "my blog trying",
+  "main": "index.js",
+  "author": "aprshine",
+  "license": "MIT",
+  "scripts": {
+    "blog:dev": "vuepress dev blog",
+    "blog:build": "vuepress build blog"
+  },
+  "devDependencies": {
+    "@vuepress/theme-blog": "^2.3.3",
+    "vuepress": "^1.9.7"
+  }
+}
