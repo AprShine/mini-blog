@@ -208,3 +208,17 @@ console.log("Hello World!")
 
 
 
+## 服务端
+
+​	以上都是Web应用中前端部分的应用，即所谓的界面层。如果你仅仅想展示一个静态页面，例如[本网页](https://aprshine.github.io/mini-blog/)，你只需要使用上述技术或者其扩展就可以完成所有任务，因为一个静态网页没有需要与服务端进行交互的需求，只需要在接受到请求之后返回相应的静态文件即可。
+
+​	但是如果你想要实现一些前后端交互的功能，则需要服务端程序的协助，这些服务端程序往往运行在客户端（往往是浏览器）和HTTP服务器之间，负责处理两者之间的数据交互，以及访问数据库，最后将响应结果转移给HTTP服务器，并由HTTP服务器发送相应数据给客户端。这种服务端程序被称为Servlet，Servlet在Web应用中的位置如下：
+
+
+
+<div align=center><img src="https://www.runoob.com/wp-content/uploads/2014/07/servlet-arch.jpg"></div>
+
+
+
+
+
